@@ -7,9 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Rongting Huang</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 20:45:13 +0800</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PTM crosstalk</title>
+      <link>https://Rongtingting.github.io/tags/ptm-crosstalk/</link>
+      <pubDate>Mon, 24 Dec 2018 20:45:13 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/ptm-crosstalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inter-protein</title>
+      <link>https://Rongtingting.github.io/tags/inter-protein/</link>
+      <pubDate>Mon, 24 Dec 2018 20:45:13 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/inter-protein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prediction</title>
+      <link>https://Rongtingting.github.io/tags/prediction/</link>
+      <pubDate>Mon, 24 Dec 2018 20:45:13 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/prediction/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin on Rongting Huang</title>
@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Rongting Huang</copyright>
-    <lastBuildDate>Sat, 23 Mar 2019 17:28:15 +0800</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,12 +14,12 @@
     <item>
       <title></title>
       <link>https://Rongtingting.github.io/author/admin/</link>
-      <pubDate>Sat, 23 Mar 2019 17:28:15 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://Rongtingting.github.io/author/admin/</guid>
-      <description>I am a master student at the School of Basic Medical Sciences, Peking University.
-I love the Python programming language as well as R.
-I ❤️ Academic 😄.</description>
+      <description>I am a PhD student from StatBiomed Group at the School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, HKU.
+I ❤️ Computational Biology 😄.
+I love the Python programming language as well as R.</description>
     </item>
     
   </channel>

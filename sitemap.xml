@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
     
+      <loc>https://Rongtingting.github.io/tags/deep-learning/</loc>
+      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/project/</loc>
+      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/ptm/</loc>
+      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>https://Rongtingting.github.io/project/ptm-x-deep/</loc>
+      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/</loc>
       <lastmod>2019-05-11T22:51:38+08:00</lastmod>
     </url>
   
@@ -21,7 +44,37 @@
   
     <url>
     
+      <loc>https://Rongtingting.github.io/authors/</loc>
+      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/categories/</loc>
+      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>https://Rongtingting.github.io/post/github_pagesplushugo/</loc>
+      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/rongting-huang/</loc>
+      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/categories/study-record/</loc>
+      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/web/</loc>
       <lastmod>2019-03-23T22:08:12+08:00</lastmod>
     </url>
   
@@ -29,6 +82,72 @@
     
       <loc>https://Rongtingting.github.io/talk/report_ptm-x-inter/</loc>
       <lastmod>2019-03-24T01:10:58+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/huang-rongting/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/publication_types/2/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/guo-yubin/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/huang-yuanhua/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/inter-protein/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/ji-shangwei/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/li-tingting/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/authors/lu-ming/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/prediction/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/tags/ptm-crosstalk/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://Rongtingting.github.io/publication_types/</loc>
+      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
     </url>
   
     <url>
@@ -45,104 +164,20 @@
   
     <url>
     
-      <loc>https://Rongtingting.github.io/authors/huang-rongting/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/publication_types/2/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
+      <loc>https://Rongtingting.github.io/authors/admin/</loc>
+      <lastmod>2019-03-23T17:28:15+08:00</lastmod>
     </url>
   
     <url>
     
       <loc>https://Rongtingting.github.io/author/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/guo-yubin/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/huang-yuanhua/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/ji-shangwei/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/li-tingting/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/lu-ming/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/ptm/</loc>
-      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/ptm-crosstalk/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2019-03-23T17:28:15+08:00</lastmod>
     </url>
   
     <url>
     
       <loc>https://Rongtingting.github.io/post/</loc>
       <lastmod>2019-02-04T22:42:51+00:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/project/</loc>
-      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/publication_types/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -160,64 +195,7 @@
     <url>
     
       <loc>https://Rongtingting.github.io/</loc>
-      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/rongting-huang/</loc>
-      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/categories/study-record/</loc>
-      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/</loc>
-      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/web/</loc>
-      <lastmod>2019-03-23T22:08:12+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/authors/admin/</loc>
-      <lastmod>2019-03-23T17:28:15+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/deep-learning/</loc>
-      <lastmod>2019-05-11T22:51:38+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/inter-protein/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://Rongtingting.github.io/tags/prediction/</loc>
-      <lastmod>2019-03-23T21:29:26+08:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2019-03-17T20:39:18+00:00</lastmod>
     </url>
   
 </urlset>

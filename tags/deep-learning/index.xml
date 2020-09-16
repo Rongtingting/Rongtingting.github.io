@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep-learning on Rongting Huang</title>
@@ -18,7 +18,7 @@
       <pubDate>Sat, 11 May 2019 21:13:26 +0800</pubDate>
       
       <guid>https://Rongtingting.github.io/project/ptm-x-deep/</guid>
-      <description></description>
+      <description>PTM crosstalk network building based on 3D And DeepLearning</description>
     </item>
     
   </channel>

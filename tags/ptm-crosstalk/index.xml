@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PTM crosstalk on Rongting Huang</title>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 24 Dec 2018 20:45:13 +0800</pubDate>
       
       <guid>https://Rongtingting.github.io/publication/ptm-x-inter-2018/</guid>
-      <description></description>
+      <description>A valuable tool to identify inter-protein PTM cross-talk at proteome-wide scale.</description>
     </item>
     
   </channel>

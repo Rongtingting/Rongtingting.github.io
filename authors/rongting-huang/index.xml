@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Rongting Huang</copyright>
-    <lastBuildDate>Sat, 23 Mar 2019 21:37:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 21:37:43 +0800</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/rongting-huang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About small things</title>
+      <link>https://Rongtingting.github.io/life/aboutsmallthings/aboutsmallthings/</link>
+      <pubDate>Mon, 28 Feb 2022 21:37:43 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/life/aboutsmallthings/aboutsmallthings/</guid>
+      <description>a little.</description>
+    </item>
+    
+    <item>
+      <title>Games hints</title>
+      <link>https://Rongtingting.github.io/life/aboutsmallthings/gameswithyou/</link>
+      <pubDate>Mon, 28 Feb 2022 21:37:43 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/life/aboutsmallthings/gameswithyou/</guid>
+      <description>a little.</description>
+    </item>
+    
+    <item>
+      <title>Spring story</title>
+      <link>https://Rongtingting.github.io/life/spring/spring/</link>
+      <pubDate>Mon, 28 Feb 2022 21:37:43 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/life/spring/spring/</guid>
+      <description>About my life.</description>
+    </item>
+    
+    <item>
+      <title>Spring story</title>
+      <link>https://Rongtingting.github.io/post/life/spring/spring/</link>
+      <pubDate>Mon, 28 Feb 2022 21:37:43 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/post/life/spring/spring/</guid>
+      <description>About my life.</description>
+    </item>
     
     <item>
       <title>Github_pages &amp; Hugo &amp; Academic theme</title>

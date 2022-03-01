@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Rongting Huang</title>
-    <link>https://Rongtingting.github.io/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Rongting Huang</description>
+    <title>Single Cell on Rongting Huang</title>
+    <link>https://Rongtingting.github.io/tags/single-cell/</link>
+    <description>Recent content in Single Cell on Rongting Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Rongting Huang</copyright>
+    <lastBuildDate>Fri, 29 Apr 2022 17:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://Rongtingting.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Rongtingting.github.io/tags/single-cell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,11 +22,11 @@
     </item>
     
     <item>
-      <title>Report_PTM-X_inter</title>
-      <link>https://Rongtingting.github.io/talk/report_ptm-x-inter/</link>
-      <pubDate>Wed, 16 Jan 2019 13:00:29 +0800</pubDate>
+      <title>MQuad</title>
+      <link>https://Rongtingting.github.io/publication/mquad/</link>
+      <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/talk/report_ptm-x-inter/</guid>
+      <guid>https://Rongtingting.github.io/publication/mquad/</guid>
       <description></description>
     </item>
     

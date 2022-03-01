@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Rongting Huang</title>
+    <link>https://Rongtingting.github.io/tags/research/</link>
+    <description>Recent content in Research on Rongting Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Rongting Huang</copyright>
+    <lastBuildDate>Fri, 29 Apr 2022 17:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://Rongtingting.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RPG seminar: XClone</title>
+      <link>https://Rongtingting.github.io/talk/rpgseminar-xclone/</link>
+      <pubDate>Fri, 29 Apr 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/talk/rpgseminar-xclone/</guid>
+      <description>XClone</description>
+    </item>
+    
+    <item>
+      <title>MQuad</title>
+      <link>https://Rongtingting.github.io/publication/mquad/</link>
+      <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/publication/mquad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Report_PTM-X_inter</title>
+      <link>https://Rongtingting.github.io/talk/report_ptm-x-inter/</link>
+      <pubDate>Wed, 16 Jan 2019 13:00:29 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/talk/report_ptm-x-inter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic characterization and prediction of post-translational modification cross-talk between proteins</title>
+      <link>https://Rongtingting.github.io/publication/ptm-x-inter-2018/</link>
+      <pubDate>Mon, 24 Dec 2018 20:45:13 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/publication/ptm-x-inter-2018/</guid>
+      <description>A valuable tool to identify inter-protein PTM cross-talk at proteome-wide scale.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proteomics on Rongting Huang</title>
+    <link>https://Rongtingting.github.io/tags/proteomics/</link>
+    <description>Recent content in Proteomics on Rongting Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022 Rongting Huang</copyright>
+    <lastBuildDate>Wed, 16 Jan 2019 13:00:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://Rongtingting.github.io/tags/proteomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Report_PTM-X_inter</title>
+      <link>https://Rongtingting.github.io/talk/report_ptm-x-inter/</link>
+      <pubDate>Wed, 16 Jan 2019 13:00:29 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/talk/report_ptm-x-inter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

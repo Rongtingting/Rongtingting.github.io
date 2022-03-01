@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Rongting Huang</copyright>
-    <lastBuildDate>Mon, 28 Feb 2022 21:37:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Apr 2022 17:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/rongting-huang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RPG seminar: XClone</title>
+      <link>https://Rongtingting.github.io/talk/rpgseminar-xclone/</link>
+      <pubDate>Fri, 29 Apr 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/talk/rpgseminar-xclone/</guid>
+      <description>XClone</description>
+    </item>
     
     <item>
       <title>About small things</title>
@@ -55,6 +64,15 @@
       
       <guid>https://Rongtingting.github.io/post/github_pagesplushugo/</guid>
       <description>Build my Github Pages by Hugo based on the theme of Academic.</description>
+    </item>
+    
+    <item>
+      <title>Report_PTM-X_inter</title>
+      <link>https://Rongtingting.github.io/talk/report_ptm-x-inter/</link>
+      <pubDate>Wed, 16 Jan 2019 13:00:29 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/talk/report_ptm-x-inter/</guid>
+      <description></description>
     </item>
     
   </channel>

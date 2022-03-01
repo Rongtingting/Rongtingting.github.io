@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2022 Rongting Huang</copyright>
-    <lastBuildDate>Mon, 28 Feb 2022 21:37:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Apr 2022 17:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research</title>
+      <link>https://Rongtingting.github.io/tags/research/</link>
+      <pubDate>Fri, 29 Apr 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Cell</title>
+      <link>https://Rongtingting.github.io/tags/single-cell/</link>
+      <pubDate>Fri, 29 Apr 2022 17:00:00 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/single-cell/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>love story</title>
@@ -45,6 +63,15 @@
       <pubDate>Sat, 23 Mar 2019 21:37:43 +0800</pubDate>
       
       <guid>https://Rongtingting.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteomics</title>
+      <link>https://Rongtingting.github.io/tags/proteomics/</link>
+      <pubDate>Wed, 16 Jan 2019 13:00:29 +0800</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tags/proteomics/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life story on Rongting Huang</title>
+    <link>https://Rongtingting.github.io/tags/life-story/</link>
+    <description>Recent content in life story on Rongting Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2025 Rongting Huang</copyright>
+    <lastBuildDate>Sat, 05 Jul 2025 23:39:09 -0700</lastBuildDate>
+    
+	<atom:link href="https://Rongtingting.github.io/tags/life-story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Summer comming</title>
+      <link>https://Rongtingting.github.io/life/summer/summer/</link>
+      <pubDate>Sat, 05 Jul 2025 23:39:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/life/summer/summer/</guid>
+      <description>About my life.</description>
+    </item>
+    
+    <item>
+      <title>Summer comming</title>
+      <link>https://Rongtingting.github.io/post/life/summer/summer/</link>
+      <pubDate>Sat, 05 Jul 2025 23:39:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/post/life/summer/summer/</guid>
+      <description>About my life.</description>
+    </item>
+    
+  </channel>
+</rss>

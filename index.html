@@ -96,6 +96,20 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-ZN0LZ11ZME', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
@@ -186,7 +200,7 @@
 
       
       
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         
 
         
@@ -198,7 +212,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
+          <a class="nav-link" href="/#Biography" data-target="#Biography">
             
             <span>Home</span>
             
@@ -217,26 +231,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts" data-target="#posts">
-            
-            <span>Posts</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects" data-target="#projects">
+          <a class="nav-link" href="/project/" data-target="/project/">
             
             <span>Projects</span>
             
@@ -255,7 +250,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#featured" data-target="#featured">
+          <a class="nav-link" href="/#featured_publications" data-target="#featured_publications">
             
             <span>Publications</span>
             
@@ -277,6 +272,46 @@
           <a class="nav-link" href="/tutorial/" data-target="/tutorial/">
             
             <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://rongtingting.github.io/ReadingNotes/" data-target="https://rongtingting.github.io/ReadingNotes/" target="_blank" rel="noopener">
+            
+            <span>Reading</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/" data-target="/post/">
+            
+            <span>Posts</span>
             
           </a>
         </li>
@@ -322,9 +357,6 @@
         
         
 
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
       
 
         
@@ -383,7 +415,134 @@
 
   
   
-  <section id="01-Biography" class="home-section wg-about   " >
+    
+
+
+<section id="slider" class="carousel slide" data-ride="carousel" data-interval="false">
+
+  
+  <ol class="carousel-indicators">
+    
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    
+    <li data-target="#slider" data-slide-to="1" ></li>
+    
+    <li data-target="#slider" data-slide-to="2" ></li>
+    
+  </ol>
+
+  
+  <div class="carousel-inner" style="min-height: 500px;">
+    
+    <div class="wg-hero carousel-item active" style="min-height: inherit;
+      
+      background-color: #666;
+      
+      
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('https://Rongtingting.github.io/img/headers/Stanford_University_Aerial_View.jpg');
+      
+      ;">
+      <div class="container" style="text-align: center;">
+          <h1 class="hero-title" itemprop="headline">
+            Hello
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            ❤️
+          </p>
+          
+
+          
+        </div>
+    </div>
+    
+    <div class="wg-hero carousel-item" style="min-height: inherit;
+      
+      background-color: #555;
+      
+      
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('https://Rongtingting.github.io/img/headers/Myschoollife.jpg');
+      
+      ;">
+      <div class="container" style="text-align: center;">
+          <h1 class="hero-title" itemprop="headline">
+            
+          </h1>
+
+          
+
+          
+        </div>
+    </div>
+    
+    <div class="wg-hero carousel-item" style="min-height: inherit;
+      
+      background-color: #333;
+      
+      
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+      url('https://Rongtingting.github.io/img/headers/Climbing.jpeg');
+      
+      ;">
+      <div class="container" style="text-align: right;">
+          <h1 class="hero-title" itemprop="headline">
+            Climbing
+          </h1>
+
+          
+          <p class="hero-lead" style="margin-left: auto; margin-right: 0">
+            Ap Lei Chau, Hong Kong 💜
+          </p>
+          
+
+          
+        </div>
+    </div>
+    
+  </div>
+
+  
+  <a class="carousel-control-prev" href="#slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</section>
+
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="Biography" class="home-section wg-about   " >
     <div class="container">
       
 
@@ -400,7 +559,7 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
@@ -411,18 +570,18 @@
 
       <div class="portrait-title">
         <h2 itemprop="name">Rongting Huang</h2>
-        <h3 itemprop="jobTitle">PhD student</h3>
+        <h3 itemprop="jobTitle">Postdoctoral Fellow</h3>
 
         
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.hku.hk/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">The University of Hong Kong</span>
+          <a href="https://www.stanford.edu/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Stanford University</span>
           </a>
         </h3>
         
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.sbms.hku.hk/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">School of Biomedical Sciences</span>
+          <a href="https://med.stanford.edu/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">School of Medicine</span>
           </a>
         </h3>
         
@@ -442,7 +601,7 @@
         
         
         <li>
-          <a itemprop="sameAs" href="mailto:rthuang@connect.hku.hk" >
+          <a itemprop="sameAs" href="mailto:rthuang@stanford.edu" >
             <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
@@ -461,51 +620,6 @@
         <li>
           <a itemprop="sameAs" href="https://github.com/Rongtingting" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=aE-MxvQAAAAJ" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://orcid.org/0000-0002-3079-4724" target="_blank" rel="noopener">
-            <i class="ai ai-orcid big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Rongting-Huang" target="_blank" rel="noopener">
-            <i class="ai ai-researchgate big-icon"></i>
           </a>
         </li>
         
@@ -541,6 +655,51 @@
           </a>
         </li>
         
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://orcid.org/0000-0002-3079-4724" target="_blank" rel="noopener">
+            <i class="ai ai-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=aE-MxvQAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Rongting-Huang" target="_blank" rel="noopener">
+            <i class="ai ai-researchgate big-icon"></i>
+          </a>
+        </li>
+        
       </ul>
 
     </div>
@@ -550,9 +709,11 @@
     
     <h1>Biography</h1>
 
-    <p>I am a PhD student from <a href="https://web.hku.hk/~yuanhua/">StatBiomed Group</a> at the <a href="https://www.sbms.hku.hk//">School of Biomedical Sciences</a>, <a href="https://www.med.hku.hk/">Li Ka Shing Faculty of Medicine</a>, <a href="https://www.hku.hk/">The University of Hong Kong</a>.</p>
-<p>I ❤️ Computational Biology 😄.</p>
+    <p>I am a joint Postdoctoral Fellow at Stanford University (<a href="(https://med.stanford.edu/brookehowittlab.html)">Brooke Howitt Lab</a>) and Beth Israel Deaconess Medical Center (<a href="https://sizunjianglab.com/">Sizun Jiang Lab</a>), specializing in single-cell genomics, cancer research, and spatial biology.</p>
+<p>🎓 I earned my Ph.D. at <a href="https://www.hku.hk/">The University of Hong Kong (HKU)</a>, where I worked in the <a href="https://github.com/StatBiomed">StatBiomed Group</a> under the supervision of Dr. Yuanhua Huang. My doctoral research focused on developing statistical methods to detect allele-specific somatic copy number variations from single-cell and spatial transcriptomic data, with the aim of elucidating genetic diversity in complex biological systems.</p>
+<p>Currently, my interests lie in advancing research in gynecologic cancers and women’s health through the development and application of novel spatial technology platforms, computational modeling approaches, and creative data visualizations to uncover meaningful insights.</p>
 <!-- raw HTML omitted -->
+<p>I ❤️ Computational Biology 😄.</p>
 
 
     <div class="row">
@@ -564,11 +725,13 @@
           
           <li>Computational Biology</li>
           
+          <li>Spatial Biology</li>
+          
           <li>Single-Cell Genomics</li>
           
           <li>Proteomics</li>
           
-          <li>Machine Learning</li>
+          <li>Statistical Modelling</li>
           
           <li>Photography</li>
           
@@ -584,8 +747,8 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD student in Computational biology, 2020-present</p>
-              <p class="institution">The University of Hong Kong</p>
+              <p class="course">Ph.D. in Computational biology, 2020-2024</p>
+              <p class="institution">School of Biomedical Sciences, The University of Hong Kong</p>
             </div>
           </li>
           
@@ -674,33 +837,263 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">PhD Student</h4>
-            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a></h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Postdoctoral Fellow</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.stanford.edu/" target="_blank" rel="noopener">Stanford University</a></h4>
             <div class="text-muted exp-meta">
-              Sep 2020 –
+              Mar 2025 –
               
                 Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>CA, U.S.</span>
+              
+            </div>
+            <div class="card-text"><p>Joint Postdoctoral work with <a href="https://med.stanford.edu/profiles/187369">Dr. Brooke Howitt</a> and <a href="https://dms.hms.harvard.edu/people/sizun-jiang">Dr. Sizun Jiang</a>.</p>
+<p><a href="https://www.cancerresearch.org/cri-funded-scientists/rongting-huang-phd">CRI Immuno-Informatics Postdoctoral Fellow</a></p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Postdoctoral Fellow</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.bidmc.org/" target="_blank" rel="noopener">BIDMC</a></h4>
+            <div class="text-muted exp-meta">
+              Mar 2025 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>MA, U.S.</span>
+              
+            </div>
+            <div class="card-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Postgraduate Research Assistant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a></h4>
+            <div class="text-muted exp-meta">
+              Sep 2024 –
+              
+                Dec 2024
               
               
                 <span class="middot-divider"></span>
                 <span>Hong Kong, China</span>
               
             </div>
-            <div class="card-text"><p><strong><em>Responsibilities include:</em></strong></p>
+            <div class="card-text"><p><strong><em>Conference</em></strong></p>
+<ul>
+<li><a href="https://www.humancellatlas.org/event/hca-asia-2024-meeting/">HCA Asia 2024 Meeting, Dec. 2024</a>, Hong Kong (Poster &amp; Flash Talk)</li>
+</ul>
+<p><strong><em>Projects</em></strong></p>
+<ul>
+<li>Benchmarking CNV detection tools</li>
+<li>SpatialCNV</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Visiting PhD Student</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://hits.harvard.edu/" target="_blank" rel="noopener">Harvard Medical School</a></h4>
+            <div class="text-muted exp-meta">
+              Sep 2023 –
+              
+                Mar 2024
+              
+              
+                <span class="middot-divider"></span>
+                <span>Boston, MA, U.S.</span>
+              
+            </div>
+            <div class="card-text"><p>Exchange experience under the supervision of <a href="https://nirmallab.com/">Dr. Ajit Johnson Nirmal</a>.</p>
+<ul>
+<li>Research Trainee, <a href="https://www.brighamandwomens.org/dermatology">Department of Dermatology, Brigham and Women&rsquo;s Hospital</a></li>
+<li>Visiting Student, <a href="https://labsyspharm.org/">Laboratory of Systems Pharmacology, HMS</a></li>
+</ul>
+<p><strong><em>Responsibilities include:</em></strong></p>
+<ul>
+<li>Statistical Modelling and Method Proposing in Spatial Proteomics</li>
+<li>Single cell Data Analysing</li>
+</ul>
+<p><strong><em>Projects</em></strong></p>
+<ul>
+<li><a href="https://nirmallab.com/spatialAE/">SpatialAE</a></li>
+</ul>
+<p><strong><em>Scholarships and Awards</em></strong></p>
+<ul>
+<li>JXTX Scholarship winner of 2023 CSHL Genomic Informatics Conference, Cold Spring Harbor Laboratory</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">PhD Student</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a></h4>
+            <div class="text-muted exp-meta">
+              Sep 2020 –
+              
+                Aug 2024
+              
+              
+                <span class="middot-divider"></span>
+                <span>Hong Kong, China</span>
+              
+            </div>
+            <div class="card-text"><p>Under the supervision of <a href="https://www.sbms.hku.hk/staff/yuanhua-huang">Dr. Yuanhua Huang</a>.</p>
+<p><strong><em>Responsibilities include:</em></strong></p>
 <ul>
 <li>Statistical Modelling and Method Proposing</li>
 <li>Single cell Data Analysing</li>
 </ul>
-<p><strong><em>Projects and Contests</em></strong></p>
+<p><strong><em>Projects</em></strong></p>
 <ul>
-<li>XClone</li>
+<li><a href="https://github.com/single-cell-genetics/XClone">XClone</a></li>
+<li>Benchmarking CNV detection tools</li>
+<li>SpatialCNV</li>
 </ul>
 <p><strong><em>Scholarships and Awards</em></strong></p>
 <ul>
-<li>UPF</li>
+<li>Hui Pun Hing Memorial Postgraduate Fellowships, <a href="https://chera.edu.hku.hk/ph-d-fellowships/">HKU UPF</a></li>
+<li>University Postgraduate Scholarships, The University of Hong Kong</li>
+<li><a href="https://scholar.aas.hku.hk/?action=showonesscheme&amp;ss_id=471">Bau Tsu Zung Bau Kwan Yeu Hing Research and Clinical Fellowship, HKU</a></li>
+<li>Silver Presentation Award, Single-Cell Data Science Workshop, Hong Kong</li>
 </ul>
 <p><strong><em>Academic Activities</em></strong></p>
+<ul>
+<li>Host workshop for CNA detection analysis (CPOS supported workshop)</li>
+</ul>
+<p><strong><em>Conference</em></strong></p>
+<ul>
+<li>
+<p>ISMB/ECCB 2021, Virtual (Poster)</p>
+</li>
+<li>
+<p>ISMB 2022, Virtual (Poster)</p>
+</li>
+<li>
+<p>ISMB/ECCB 2023, Lyon France (Poster &amp; Long talk)</p>
+</li>
+<li>
+<p><a href="https://meetings.cshl.edu/abstracts.aspx?meet=info&amp;year=23">Genomic Informatics 2023</a>, CSHL (Poster)</p>
+</li>
+<li>
+<p>Research Day of SBMS (Poster)</p>
+</li>
+<li>
+<p>HKUMED Postgraduate Symposium, KS Falculty of Medicine (Poster)</p>
+</li>
+</ul>
 <p><strong><em>Leisure Activities</em></strong></p>
+<ul>
+<li>
+<p>Tree Climbing Basic Training Certificate, Nov. 2021</p>
+<ul>
+<li>International Tree Climbing Association</li>
+</ul>
+</li>
+<li>
+<p>LEVEL 1 SPORT CLINBING TRAINING CERTIFICATE, Jan. 2022</p>
+<ul>
+<li>CHINA HONG KONG MOUNTAINEERING AND CLIMBING UNION LIMITED</li>
+</ul>
+</li>
+<li>
+<p>OPEN WATER SCUBA DIVER, Aug. 2024</p>
+<ul>
+<li>NAUI</li>
+</ul>
+</li>
+<li>
+<p>Frisbee Association @SHUN HING COLLEGE</p>
+</li>
+</ul>
 </div>
           </div>
         </div>
@@ -743,13 +1136,16 @@
 <li>Data Analysing</li>
 <li>Modelling and Method Proposing</li>
 </ul>
-<p><strong><em>Projects and Contests</em></strong></p>
+<p><strong><em>Projects</em></strong></p>
 <ul>
-<li>Exploring the <strong>cross-talk prediction</strong> of Post-translational modification</li>
+<li><a href="https://github.com/Rongtingting/PTM-X">PTM-X</a>: Exploring the <strong>cross-talk prediction</strong> of Post-translational modification</li>
 <li><strong>Phosphorylation proteomics</strong> exploring  based on mass spectrometry data</li>
 </ul>
 <p><strong><em>Scholarships and Awards</em></strong></p>
 <ul>
+<li>
+<p><strong>First Academic Excellence Scholarship</strong></p>
+</li>
 <li>
 <p><strong>National Scholarship for Postgraduates</strong> Dec. 2019</p>
 </li>
@@ -772,7 +1168,7 @@
 <p><strong><a href="http://www.amss.ac.cn/xwdt/zhxw/2019/201905/t20190523_5301234.html">The 7th Young Scholars Forum on Interdisciplinary Studies in Mathematics, Computer and Life Sciences</a></strong> 2019.5.18-19 Beijing, China [Participant]</p>
 </li>
 <li>
-<p><strong><a href="http://sbms.bjmu.edu.cn/xzxx/201619.htm">The 10th Multidisciplinary Conference on New ideas and New Technologies</a></strong> 2019.1.16 Health Science Center, Peking University <strong>[Reporter]</strong></p>
+<p><strong><a href="http://sbms.bjmu.edu.cn/xzxx/201619.htm">The 10th Multidisciplinary Conference on New ideas and New Technologies</a></strong> 2019.1.16 Health Science Center, Peking University</p>
 <ul>
 <li><a href="http://www.bjmu.edu.cn/xxdt/201771.htm">Report</a>: Systematic characterization and prediction of post-translational modification cross-talk between proteins</li>
 </ul>
@@ -789,7 +1185,7 @@
 <li>
 <p><strong>Main member of the Association</strong>  May. 2018 &ndash; present</p>
 <ul>
-<li>Photography Association of Health Science Center,Peking University</li>
+<li>Photography Association of Health Science Center, Peking University</li>
 </ul>
 </li>
 </ul>
@@ -833,14 +1229,9 @@
             <div class="card-text"><p><strong><em>Scholarships and Main Awards</em></strong></p>
 <ul>
 <li>
-<p><strong>National Scholarship for Undergraduates</strong>,  Dec. 2016</p>
-</li>
-<li>
-<p><strong>National Scholarship for Undergraduates</strong>,  Dec. 2015</p>
-</li>
-<li>
-<p><strong>National Scholarship for Undergraduates</strong>,  Dec. 2014</p>
+<p><strong>National Scholarship for Undergraduates</strong>,  Dec. 2016/2015/2014</p>
 <ul>
+<li>Awarded 3 times in 3 consecutive years</li>
 <li>Ministry of Education, China</li>
 </ul>
 </li>
@@ -891,6 +1282,1040 @@
     </div>
     
     
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="projects" class="home-section wg-portfolio   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+
+
+    
+
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/xclone/" >XClone</a></h4>
+      <div class="card-desription">
+        <p>Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-deep-learning js-id-PTM">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/ptm-x-deep/" >PTM-X-Deep</a></h4>
+      <div class="card-desription">
+        <p>PTM crosstalk network building based on 3D And DeepLearning</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/ptm_cooccur/" >PTM Co-occur</a></h4>
+      <div class="card-desription">
+        <p>Analysis of PTM Cooccuring status</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/ptm-x/" >PTM-X</a></h4>
+      <div class="card-desription">
+        <p>PTM Cross-talk Prediction</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="featured_publications" class="home-section wg-featured   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Featured Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+  
+    
+
+
+
+<meta content="2025-07-06 01:15:09 -0700 PDT" itemprop="datePublished">
+<meta content="2025-07-06 01:15:09 -0700 PDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href=""><strong>Huang, Rongting</strong></a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Huang, Xianjie</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Tong, Yin</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Yan, Helen YN</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Leung, Suet Yi</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Stegle, Oliver</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Huang, Yuanhua</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2025</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Nat. Commun.
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3" itemprop="name">
+    <a href="/publication/xclone-2024/" itemprop="url">Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone</a>
+  </h3>
+
+  
+  <div class="article-style" itemprop="articleBody">
+    XClone is an algorithm to infer allele- and haplotype-specific copy numbers in individual cells from low-coverage and sparse single-cell RNA sequencing data (e.g., those generated by 10x Genomics, Smart-seq, etc.)
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/xclone-2024/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/single-cell-genetics/XClone" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/Rongtingting/xclone-data" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/xclone/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-024-51026-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  <section id="publications" class="home-section wg-pages   " >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <p><!-- raw HTML omitted -->
+<p>Quickly discover relevant content by <a href="https://Rongtingting.github.io/publication/">filtering publications</a>.</p>
+<!-- raw HTML omitted -->
+</p>
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/xclone-2024/" itemprop="url">Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      XClone is an algorithm to infer allele- and haplotype-specific copy numbers in individual cells from low-coverage and sparse …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href=""><strong>Huang, Rongting</strong></a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Huang, Xianjie</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Tong, Yin</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Yan, Helen YN</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Leung, Suet Yi</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Stegle, Oliver</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Huang, Yuanhua</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/xclone-2024/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/single-cell-genetics/XClone" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/Rongtingting/xclone-data" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/xclone/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-024-51026-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/mquad/" itemprop="url">MQuad enables clonal substructure discovery using single cell mitochondrial variants</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      MQuad: Mixture Model for Mitochondrial Mutation detection in single-cell omics data
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Aaron Wing Cheung Kwok</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Chen Qiao</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href=""><strong>Rongting Huang</strong></a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Mai-Har Sham</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Joshua W. K. Ho</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Yuanhua Huang</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/mquad/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/single-cell-genetics/MQuad" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-022-28845-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/ptm-x-inter-2018/" itemprop="url">Systematic characterization and prediction of post-translational modification cross-talk between proteins</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      A valuable tool to identify inter-protein PTM cross-talk at proteome-wide scale.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href=""><strong>Huang, Rongting</strong></a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Huang, Yuanhua</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Guo, Yubin</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Ji, Shangwei</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Lu, Ming</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Li, Tingting</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://oup.prod.sis.lan/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/bty1033/27983717/bty1033.pdf" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/ptm-x-inter-2018/PTM-X-inter-2018.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ptm-x-inter-2018/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://bioinfo.bjmu.edu.cn/ptm-x/" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/huangyh09/PTM-X.Supplementary" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/ptm-x/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1093/bioinformatics/bty1033" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
   </div>
 </div>
 
@@ -995,6 +2420,128 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/post/life/summer/summer/" itemprop="url">Summer comming</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      About my life.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+
+<meta content="2025-07-05 23:39:09 -0700 PDT" itemprop="datePublished">
+<meta content="2025-07-05 23:39:09 -0700 PDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/rongting/">Rongting Huang</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 5, 2025</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="">Life Record</a>
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
       <a href="/post/life/spring/spring/" itemprop="url">Spring story</a>
     </h3>
 
@@ -1013,8 +2560,8 @@
 
 
 
-<meta content="2022-02-28 21:37:43 &#43;0800 CST" itemprop="datePublished">
-<meta content="2022-03-01 00:19:13 &#43;0800 CST" itemprop="dateModified">
+<meta content="2022-02-28 21:37:43 &#43;0800 &#43;0800" itemprop="datePublished">
+<meta content="2022-03-01 00:19:13 &#43;0800 &#43;0800" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -1137,8 +2684,8 @@
 
 
 
-<meta content="2019-03-23 21:37:43 &#43;0800 CST" itemprop="datePublished">
-<meta content="2019-03-23 22:08:12 &#43;0800 CST" itemprop="dateModified">
+<meta content="2019-03-23 21:37:43 &#43;0800 &#43;0800" itemprop="datePublished">
+<meta content="2019-03-23 22:08:12 &#43;0800 &#43;0800" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -1225,273 +2772,6 @@
     
 
   </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="projects" class="home-section wg-portfolio   " >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-
-
-    
-
-    
-
-    <div class="isotope projects-container js-layout-masonry ">
-      
-        
-        
-        
-        
-          
-
-
-
-
-
-
-
-
-<div class="project-card project-item isotope-item ">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/xclone/" >XClone</a></h4>
-      <div class="card-desription">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      
-        
-        
-        
-        
-          
-
-
-
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-deep-learning js-id-PTM">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/ptm-x-deep/" >PTM-X-Deep</a></h4>
-      <div class="card-desription">
-        <p>PTM crosstalk network building based on 3D And DeepLearning</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      
-        
-        
-        
-        
-          
-
-
-
-
-
-
-
-
-<div class="project-card project-item isotope-item ">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/ptm_cooccur/" >PTM Co-occur</a></h4>
-      <div class="card-desription">
-        <p>Analysis of PTM Cooccuring status</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      
-        
-        
-        
-        
-          
-
-
-
-
-
-
-
-
-<div class="project-card project-item isotope-item ">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/ptm-x/" >PTM-X</a></h4>
-      <div class="card-desription">
-        <p>PTM Cross-talk Prediction</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      
-    </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="gallery" class="home-section wg-blank   " >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-12 col-lg-4 section-heading">
-      <h1>Gallery</h1>
-      
-    </div>
-    <div class="col-12 col-lg-8">
-      
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="gallery">
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/autumn.jpg" >
-  <img src="/home/gallery/gallery/autumn_huff1dae71aef655adaf01f8d172841b3b_126629_0x190_resize_q90_lanczos.jpg" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/spring.jpg" >
-  <img src="/home/gallery/gallery/spring_huff1dae71aef655adaf01f8d172841b3b_223972_0x190_resize_q90_lanczos.jpg" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/summer.jpg" >
-  <img src="/home/gallery/gallery/summer_hu850b016d572794228a3a9804b152e849_3235018_0x190_resize_q90_lanczos.jpg" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/winter.jpg" >
-  <img src="/home/gallery/gallery/winter_hu461e76f779210e731e7d23113fed21dc_994716_0x190_resize_q90_lanczos.jpg" alt="">
-  </a>
-  
-
-  
-</div>
-
-    </div>
-  
 </div>
 
     </div>
@@ -1848,598 +3128,78 @@
 
   
   
-  <section id="featured" class="home-section wg-featured   " >
+  <section id="gallery" class="home-section wg-blank   " >
     <div class="container">
       
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
+  
+    <div class="col-12 col-lg-4 section-heading">
+      <h1>Gallery</h1>
       
-        
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
-
-  
-    
-
-
-
-<meta content="2018-12-24 20:45:13 &#43;0800 CST" itemprop="datePublished">
-<meta content="2022-03-01 10:40:55 &#43;0800 CST" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
+    </div>
+    <div class="col-12 col-lg-8">
       
-      
-      <a href=""><strong>Huang, Rongting</strong></a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Huang, Yuanhua</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Guo, Yubin</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Ji, Shangwei</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Lu, Ming</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Li, Tingting</a></span></span>
-  
 
 
 
-  </div>
-  
-  
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>December 2018</time>
-  </span>
-  
 
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      <em>Bioinformatics</em>
-    
-  </span>
-  
 
-  
 
   
   
 
-  
 
-  
-
-</div>
-
-  
+<div class="gallery">
 
   
   
-  
-
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/publication/ptm-x-inter-2018/" itemprop="url">Systematic characterization and prediction of post-translational modification cross-talk between proteins</a>
-  </h3>
-
-  
-  <div class="article-style" itemprop="articleBody">
-    A valuable tool to identify inter-protein PTM cross-talk at proteome-wide scale.
-  </div>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
   
   
     
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://oup.prod.sis.lan/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/bty1033/27983717/bty1033.pdf" target="_blank" rel="noopener">
-  Preprint
-</a>
-
-
-
-
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/ptm-x-inter-2018/PTM-X-inter-2018.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ptm-x-inter-2018/cite.bib">
-  Cite
-</button>
-
-
-  
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/autumn.jpg" >
+  <img src="/home/gallery/gallery/autumn_huff1dae71aef655adaf01f8d172841b3b_126629_0x190_resize_q90_lanczos.jpg" alt="">
+  </a>
   
     
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://bioinfo.bjmu.edu.cn/ptm-x/" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/spring.jpg" >
+  <img src="/home/gallery/gallery/spring_huff1dae71aef655adaf01f8d172841b3b_223972_0x190_resize_q90_lanczos.jpg" alt="">
+  </a>
   
     
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/summer.jpg" >
+  <img src="/home/gallery/gallery/summer_hu850b016d572794228a3a9804b152e849_3235018_0x190_resize_q90_lanczos.jpg" alt="">
+  </a>
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/huangyh09/PTM-X.Supplementary" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/ptm-x/">
-    Project
+    
+    
+    
+    
+    
+  <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/winter.jpg" >
+  <img src="/home/gallery/gallery/winter_hu461e76f779210e731e7d23113fed21dc_994716_0x190_resize_q90_lanczos.jpg" alt="">
   </a>
   
 
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1093/bioinformatics/bty1033" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-  </div>
   
-
-</div>
-
-      
-    
-
-  </div>
 </div>
 
     </div>
-  </section>
   
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="publications" class="home-section wg-pages   " >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    <p><!-- raw HTML omitted -->
-<p>Quickly discover relevant content by <a href="https://Rongtingting.github.io/publication/">filtering publications</a>.</p>
-<!-- raw HTML omitted -->
-</p>
-
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/publication/mquad/" itemprop="url">MQuad</a>
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/publication/ptm-x-inter-2018/" itemprop="url">Systematic characterization and prediction of post-translational modification cross-talk between proteins</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      A valuable tool to identify inter-protein PTM cross-talk at proteome-wide scale.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div itemprop="author">
-        
-
-
-
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href=""><strong>Huang, Rongting</strong></a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Huang, Yuanhua</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Guo, Yubin</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Ji, Shangwei</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Lu, Ming</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Li, Tingting</a></span></span>
-  
-
-
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://oup.prod.sis.lan/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/bty1033/27983717/bty1033.pdf" target="_blank" rel="noopener">
-  Preprint
-</a>
-
-
-
-
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/ptm-x-inter-2018/PTM-X-inter-2018.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ptm-x-inter-2018/cite.bib">
-  Cite
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://bioinfo.bjmu.edu.cn/ptm-x/" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/huangyh09/PTM-X.Supplementary" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/ptm-x/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1093/bioinformatics/bty1033" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
 </div>
 
     </div>
@@ -2495,7 +3255,17 @@
           
           
           
+          <a href="/tags/cnv/" style="font-size:0.8rem">cnv</a>
+        
+          
+          
+          
           <a href="/tags/deep-learning/" style="font-size:0.8rem">deep-learning</a>
+        
+          
+          
+          
+          <a href="/tags/genomics/" style="font-size:1.4576497722987207rem">genomics</a>
         
           
           
@@ -2505,7 +3275,12 @@
           
           
           
-          <a href="/tags/love-story/" style="font-size:2.2643002974495365rem">love-story</a>
+          <a href="/tags/life-story/" style="font-size:1.4576497722987207rem">life-story</a>
+        
+          
+          
+          
+          <a href="/tags/love-story/" style="font-size:2.115299544597441rem">love-story</a>
         
           
           
@@ -2530,12 +3305,17 @@
           
           
           
-          <a href="/tags/research/" style="font-size:2.2643002974495365rem">research</a>
+          <a href="/tags/research/" style="font-size:2.3270154828966763rem">research</a>
         
           
           
           
-          <a href="/tags/single-cell/" style="font-size:1.5321501487247682rem">single-cell</a>
+          <a href="/tags/singel-cell/" style="font-size:0.8rem">singel-cell</a>
+        
+          
+          
+          
+          <a href="/tags/single-cell/" style="font-size:1.4576497722987207rem">single-cell</a>
         
           
           
@@ -2595,21 +3375,16 @@
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:rthuang@connect.hku.hk">rthuang@connect.hku.hk</a></span>
+        <span id="person-email" itemprop="email"><a href="mailto:rthuang@stanford.edu">rthuang@stanford.edu</a></span>
       </li>
       
 
-      
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:852-28315093">852-28315093</a></span>
-      </li>
       
 
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Rm 1-05E, 1/F, Jockey Club Building for Interdisciplinary Research, 5 Sassoon Road, Pokfulam, Hong Kong</span>
+        <span id="person-address" itemprop="address">Edwards Research Building, 300 Pasteur Dr, Palo Alto, CA 94304</span>
       </li>
       
 
@@ -2618,22 +3393,6 @@
       
 
       
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-        <a href="https://twitter.com/RongtingHuang" target="_blank" rel="noopener">DM Me</a>
-      </li>
       
 
     </ul>
@@ -2641,10 +3400,10 @@
     
     <div class="d-none">
       <input id="map-provider" value="1">
-      <input id="map-lat" value="22.268973">
-      <input id="map-lng" value="114.129965">
-      <input id="map-dir" value="Rm 1-05E, 1/F, Jockey Club Building for Interdisciplinary Research, 5 Sassoon Road, Pokfulam, Hong Kong">
-      <input id="map-zoom" value="15">
+      <input id="map-lat" value="37.4325358">
+      <input id="map-lng" value="-122.1794581">
+      <input id="map-dir" value="Edwards Research Building, 300 Pasteur Dr, Palo Alto, CA 94304">
+      <input id="map-zoom" value="12">
       <input id="map-api-key" value="">
     </div>
     <div id="map"></div>
@@ -2663,7 +3422,7 @@
   
 
   <p class="powered-by">
-    © 2022 Rongting Huang &middot; 
+    © 2025 Rongting Huang &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

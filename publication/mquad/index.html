@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="MQuad: Mixture Model for Mitochondrial Mutation detection in single-cell omics data">
 
   
   <link rel="alternate" hreflang="en-us" href="https://Rongtingting.github.io/publication/mquad/">
@@ -95,6 +95,20 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-ZN0LZ11ZME', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
@@ -121,8 +135,8 @@
   
   <meta property="og:site_name" content="Rongting Huang">
   <meta property="og:url" content="https://Rongtingting.github.io/publication/mquad/">
-  <meta property="og:title" content="MQuad | Rongting Huang">
-  <meta property="og:description" content=""><meta property="og:image" content="https://Rongtingting.github.io/img/static/img/">
+  <meta property="og:title" content="MQuad enables clonal substructure discovery using single cell mitochondrial variants | Rongting Huang">
+  <meta property="og:description" content="MQuad: Mixture Model for Mitochondrial Mutation detection in single-cell omics data"><meta property="og:image" content="https://Rongtingting.github.io/img/static/img/">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2022-03-01T10:02:07&#43;08:00">
@@ -134,7 +148,7 @@
 
   
 
-  <title>MQuad | Rongting Huang</title>
+  <title>MQuad enables clonal substructure discovery using single cell mitochondrial variants | Rongting Huang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -187,7 +201,7 @@
 
       
       
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         
 
         
@@ -199,7 +213,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about">
+          <a class="nav-link" href="/#Biography">
             
             <span>Home</span>
             
@@ -218,26 +232,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts">
-            
-            <span>Posts</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects">
+          <a class="nav-link" href="/project/">
             
             <span>Projects</span>
             
@@ -256,7 +251,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#featured">
+          <a class="nav-link" href="/#featured_publications">
             
             <span>Publications</span>
             
@@ -278,6 +273,46 @@
           <a class="nav-link" href="/tutorial/">
             
             <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://rongtingting.github.io/ReadingNotes/" target="_blank" rel="noopener">
+            
+            <span>Reading</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/">
+            
+            <span>Posts</span>
             
           </a>
         </li>
@@ -324,9 +359,6 @@
         
 
       
-      </ul>
-      <ul class="navbar-nav ml-auto">
-      
 
         
 
@@ -371,7 +403,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">MQuad</h1>
+  <h1 itemprop="name">MQuad enables clonal substructure discovery using single cell mitochondrial variants</h1>
 
   
 
@@ -380,11 +412,67 @@
 
 
 
-<meta content="2022-03-01 10:02:07 &#43;0800 CST" itemprop="datePublished">
-<meta content="2022-03-01 10:40:55 &#43;0800 CST" itemprop="dateModified">
+<meta content="2022-03-01 10:02:07 &#43;0800 &#43;0800" itemprop="datePublished">
+<meta content="2022-03-01 10:40:55 &#43;0800 &#43;0800" itemprop="dateModified">
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Aaron Wing Cheung Kwok</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Chen Qiao</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href=""><strong>Rongting Huang</strong></a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Mai-Har Sham</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Joshua W. K. Ho</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Yuanhua Huang</a></span></span>
+  
+
+
+
+  </div>
   
   
 
@@ -413,7 +501,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=MQuad&amp;url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f"
+         href="https://twitter.com/intent/tweet?text=MQuad%20enables%20clonal%20substructure%20discovery%20using%20single%20cell%20mitochondrial%20variants&amp;url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -427,21 +515,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f&amp;title=MQuad"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f&amp;title=MQuad%20enables%20clonal%20substructure%20discovery%20using%20single%20cell%20mitochondrial%20variants"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f&amp;title=MQuad"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f&amp;title=MQuad%20enables%20clonal%20substructure%20discovery%20using%20single%20cell%20mitochondrial%20variants"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=MQuad&amp;body=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f">
+         href="mailto:?subject=MQuad%20enables%20clonal%20substructure%20discovery%20using%20single%20cell%20mitochondrial%20variants&amp;body=https%3a%2f%2fRongtingting.github.io%2fpublication%2fmquad%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -468,7 +556,61 @@
 
 
 
+  
 
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/mquad/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/single-cell-genetics/MQuad" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1038/s41467-022-28845-0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
 
 
   
@@ -478,6 +620,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Mitochondrial mutations are increasingly recognised as informative endogenous genetic markers that can be used to reconstruct cellular clonal structure using single-cell RNA or DNA sequencing data. However, identifying informative mtDNA variants in noisy and sparse single-cell sequencing data is still challenging with few computation methods available. Here we present an open source computational tool MQuad that accurately calls clonally informative mtDNA variants in a population of single cells, and an analysis suite for complete clonality inference, based on single cell RNA, DNA or ATAC sequencing data. Through a variety of simulated and experimental single cell sequencing data, we showed that MQuad can identify mitochondrial variants with both high sensitivity and specificity, outperforming existing methods by a large extent. Furthermore, we demonstrate its wide applicability in different single cell sequencing protocols, particularly in complementing single-nucleotide and copy-number variations to extract finer clonal resolution.</p>
     
 
     
@@ -491,8 +636,8 @@
 
             
             
-            <a href="/publication/#0">
-              Uncategorized
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -503,6 +648,18 @@
     <div class="d-md-none space-below"></div>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Nature Communications</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -518,6 +675,8 @@
   
   <a class="badge badge-light" href="">Single Cell</a>
   
+  <a class="badge badge-light" href="/tags/genomics/">Genomics</a>
+  
 </div>
 
 
@@ -529,6 +688,10 @@
 
 
 
+  
+  
+    
+  
   
 
 
@@ -548,7 +711,7 @@
   
 
   <p class="powered-by">
-    © 2022 Rongting Huang &middot; 
+    © 2025 Rongting Huang &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

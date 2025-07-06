@@ -6,8 +6,8 @@
     <description>Recent content in Rongting on Rongting Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2022 Rongting Huang</copyright>
-    <lastBuildDate>Fri, 29 Apr 2022 17:00:00 +0800</lastBuildDate>
+    <copyright>&amp;copy; 2025 Rongting Huang</copyright>
+    <lastBuildDate>Sat, 05 Jul 2025 23:39:09 -0700</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/rongting/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,8 +18,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://Rongtingting.github.io/author/rongting/</guid>
-      <description>I am a PhD student from StatBiomed Group at the School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong.
-I ❤️ Computational Biology 😄.</description>
+      <description>I am a joint Postdoctoral Fellow at Stanford University (Brooke Howitt Lab) and Beth Israel Deaconess Medical Center (Sizun Jiang Lab), specializing in single-cell genomics, cancer research, and spatial biology.
+🎓 I earned my Ph.D. at The University of Hong Kong (HKU), where I worked in the StatBiomed Group under the supervision of Dr. Yuanhua Huang. My doctoral research focused on developing statistical methods to detect allele-specific somatic copy number variations from single-cell and spatial transcriptomic data, with the aim of elucidating genetic diversity in complex biological systems.</description>
     </item>
     
   </channel>

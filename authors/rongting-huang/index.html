@@ -98,7 +98,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'G-ZN0LZ11ZME', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -117,8 +117,8 @@
   
 
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/img/icon.jpg">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.jpg">
 
   <link rel="canonical" href="https://Rongtingting.github.io/authors/rongting-huang/">
 
@@ -139,10 +139,36 @@
   <meta property="og:description" content="Rongting Huang homepage"><meta property="og:image" content="https://Rongtingting.github.io/img/static/img/">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2025-07-05T23:39:09-07:00">
+  <meta property="og:updated_time" content="2025-07-06T11:27:09-07:00">
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
   
 
@@ -404,6 +430,14 @@
       <ul>
         
         <li>
+          <a href="/tutorial/homepage/github_pagesplushugo/">Homepage Setup Guide</a>
+        </li>
+        
+        <li>
+          <a href="/tutorial/homepage/oldhugoinstall/">Manually Download and Install Hugo 0.71</a>
+        </li>
+        
+        <li>
           <a href="/life/summer/summer/">Summer comming</a>
         </li>
         
@@ -413,10 +447,6 @@
         
         <li>
           <a href="/talk/rpgseminar-xclone/">RPG seminar: XClone</a>
-        </li>
-        
-        <li>
-          <a href="/publication/mquad/">MQuad enables clonal substructure discovery using single cell mitochondrial variants</a>
         </li>
         
         <li>
@@ -436,7 +466,7 @@
         </li>
         
         <li>
-          <a href="/post/github_pagesplushugo/">Github_pages &amp; Hugo &amp; Academic theme</a>
+          <a href="/tutorial/homepage/github_pagesplushugo_deprecated/">Homepages &amp; Hugo &amp; Academic theme (deprecated version)</a>
         </li>
         
         <li>
@@ -458,7 +488,7 @@
     © 2025 Rongting Huang &middot; 
 
     Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://github.com/Rongtingting/academic-kickstart" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
     

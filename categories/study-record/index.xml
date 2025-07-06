@@ -7,17 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2025 Rongting Huang</copyright>
-    <lastBuildDate>Sat, 23 Mar 2019 21:37:43 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 11:27:09 -0700</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/categories/study-record/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Github_pages &amp; Hugo &amp; Academic theme</title>
-      <link>https://Rongtingting.github.io/post/github_pagesplushugo/</link>
+      <title>Homepage Setup Guide</title>
+      <link>https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo/</link>
+      <pubDate>Sun, 06 Jul 2025 11:27:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo/</guid>
+      <description>Build my Github Pages (Homepages) by Hugo based on the theme of Academic.</description>
+    </item>
+    
+    <item>
+      <title>Manually Download and Install Hugo 0.71</title>
+      <link>https://Rongtingting.github.io/tutorial/homepage/oldhugoinstall/</link>
+      <pubDate>Sun, 06 Jul 2025 11:27:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tutorial/homepage/oldhugoinstall/</guid>
+      <description>Build my Github Pages (Homepages) by Hugo based on the theme of Academic.</description>
+    </item>
+    
+    <item>
+      <title>Homepages &amp; Hugo &amp; Academic theme (deprecated version)</title>
+      <link>https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo_deprecated/</link>
       <pubDate>Sat, 23 Mar 2019 21:37:43 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/post/github_pagesplushugo/</guid>
+      <guid>https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo_deprecated/</guid>
       <description>Build my Github Pages by Hugo based on the theme of Academic.</description>
     </item>
     

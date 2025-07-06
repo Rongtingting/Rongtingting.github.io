@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Hugo 0.71.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rongting Huang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Build my Github Pages (Homepages) by Hugo based on the theme of Academic.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-ZN0LZ11ZME', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://Rongtingting.github.io/index.xml" type="application/rss+xml" title="Rongting Huang">
+  <link rel="feed" href="https://Rongtingting.github.io/index.xml" type="application/rss+xml" title="Rongting Huang">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.jpg">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.jpg">
+
+  <link rel="canonical" href="https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RongtingHuang">
+  <meta property="twitter:creator" content="@RongtingHuang">
+  
+  <meta property="og:site_name" content="Rongting Huang">
+  <meta property="og:url" content="https://Rongtingting.github.io/tutorial/homepage/github_pagesplushugo/">
+  <meta property="og:title" content="Homepage Setup Guide | Rongting Huang">
+  <meta property="og:description" content="Build my Github Pages (Homepages) by Hugo based on the theme of Academic."><meta property="og:image" content="https://Rongtingting.github.io/img/static/img/">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2025-07-06T11:27:09-07:00">
+  
+  <meta property="article:modified_time" content="2025-07-06T11:27:09-07:00">
+  
+
+  
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#3f51b5",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#3f51b5"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
+  
+
+  <title>Homepage Setup Guide | Rongting Huang</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Rongting Huang</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#Biography">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/project/">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#featured_publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://rongtingting.github.io/ReadingNotes/" target="_blank" rel="noopener">
+            
+            <span>Reading</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/life/">
+            
+            <span>RT Life</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Homepage Setup Guide</h1>
+
+  
+  <p class="page-subtitle">My academic homepage building log (2025 update)</p>
+  
+
+  
+    
+
+
+
+<meta content="2025-07-06 11:27:09 -0700 PDT" itemprop="datePublished">
+<meta content="2025-07-06 11:27:09 -0700 PDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/rongting/">Rongting Huang</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 6, 2025</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="">Study Record</a>
+    
+  </span>
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Homepage%20Setup%20Guide&amp;url=https%3a%2f%2fRongtingting.github.io%2ftutorial%2fhomepage%2fgithub_pagesplushugo%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fRongtingting.github.io%2ftutorial%2fhomepage%2fgithub_pagesplushugo%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fRongtingting.github.io%2ftutorial%2fhomepage%2fgithub_pagesplushugo%2f&amp;title=Homepage%20Setup%20Guide"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fRongtingting.github.io%2ftutorial%2fhomepage%2fgithub_pagesplushugo%2f&amp;title=Homepage%20Setup%20Guide"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Homepage%20Setup%20Guide&amp;body=https%3a%2f%2fRongtingting.github.io%2ftutorial%2fhomepage%2fgithub_pagesplushugo%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Here’s a <strong>comprehensive Markdown tutorial</strong> for setting up and deploying your Hugo homepage using your legacy <code>academic-kickstart</code> template. This guide assumes you need <strong>Hugo v0.71</strong> or earlier due to theme compatibility.</p>
+<hr>
+<blockquote>
+<p><strong>Note:</strong><br>
+The <code>academic-kickstart</code> template is old and requires <strong>Hugo v0.71 or before</strong>.<br>
+See: <a href="https://github.com/Rongtingting/academic-kickstart">Rongtingting/academic-kickstart</a></p>
+</blockquote>
+<hr>
+<h2 id="1-environment-preparation">1. Environment Preparation</h2>
+<h3 id="11-install-old-hugo-v071-or-earlier">1.1 Install Old Hugo (v0.71 or Earlier)</h3>
+<ul>
+<li>Refer to:<br>
+<a href="/tutorial/homepage/oldhugoinstall/">Install old hugo 0.71</a></li>
+<li>For general Hugo installation on macOS, see <a href="https://gohugo.io/installation/macos/">Hugo macOS install docs</a>.</li>
+</ul>
+<h3 id="12-install-prerequisites">1.2 Install Prerequisites</h3>
+<p>You’ll need:</p>
+<ul>
+<li><strong>Git</strong> (for cloning and managing repositories)</li>
+<li><strong>Go</strong> (for some Hugo builds and theme tools)</li>
+<li><strong>Dart Sass</strong> (for advanced CSS/Sass processing, if required)</li>
+</ul>
+<p><strong>Check your versions:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git version
+<span style="color:#75715e"># git version 2.39.5 (Apple Git-154)</span>
+
+go version
+<span style="color:#75715e"># go version go1.24.4 darwin/arm64</span>
+
+hugo71 version
+<span style="color:#75715e"># Hugo Static Site Generator v0.71.0-06150C87/extended darwin/amd64 BuildDate: 2020-05-18T16:13:04Z</span>
+
+hugo version
+<span style="color:#75715e"># (You may also have a newer hugo installed, but use hugo71 for this project)</span>
+</code></pre></div><p>If you need to install Git, Go, or Dart Sass, follow their respective documentation:</p>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git install</a></li>
+<li><a href="https://go.dev/doc/install">Go install</a></li>
+<li><a href="https://sass-lang.com/install">Dart Sass install</a></li>
+</ul>
+<hr>
+<h2 id="2-project-setup--deployment">2. Project Setup &amp; Deployment</h2>
+<h3 id="21-clone-your-academic-kickstart-repo">2.1 Clone Your Academic Kickstart Repo</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/Rongtingting/academic-kickstart.git My_homepage
+cd My_homepage
+</code></pre></div><h3 id="22-initialize-submodules">2.2 Initialize Submodules</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule update --init --recursive
+</code></pre></div><h3 id="23-prepare-the-public-directory">2.3 Prepare the <code>public</code> Directory</h3>
+<p>Remove any existing <code>public/</code> folder:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -r public/
+</code></pre></div><p>Then, add your GitHub Pages repo as a submodule to <code>public/</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule add -f -b master https://github.com/Rongtingting/Rongtingting.github.io.git public
+</code></pre></div><hr>
+<h2 id="3-local-development">3. Local Development</h2>
+<h3 id="31-start-the-hugo-server">3.1 Start the Hugo Server</h3>
+<p>Run the Hugo development server with <strong>drafts enabled</strong>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -D
+<span style="color:#75715e"># Or, if you have hugo71 installed as a separate binary:</span>
+hugo71 server -D
+</code></pre></div><ul>
+<li>Visit <a href="http://localhost:1313">http://localhost:1313</a> in your browser to preview your site.</li>
+</ul>
+<hr>
+<h2 id="4-build-and-deploy">4. Build and Deploy</h2>
+<h3 id="41-build-the-site">4.1 Build the Site</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo
+<span style="color:#75715e"># Or</span>
+hugo71
+</code></pre></div><ul>
+<li>This generates the site into the <code>public/</code> folder, which is connected to your GitHub Pages repository.</li>
+</ul>
+<h3 id="42-deploy-to-github-pages">4.2 Deploy to GitHub Pages</h3>
+<p>Commit and push your changes in both your main repo and the <code>public/</code> submodule:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Commit changes in your main site repo</span>
+git add .
+git commit -m <span style="color:#e6db74">&#34;Update site content&#34;</span>
+git push origin master
+
+<span style="color:#75715e"># Deploy the site by pushing the built files in public/</span>
+cd public
+git add .
+git commit -m <span style="color:#e6db74">&#34;Publish site&#34;</span>
+git push origin master
+cd ..
+</code></pre></div><hr>
+<h2 id="5-additional-resources">5. Additional Resources</h2>
+<ul>
+<li><a href="attachment:ee2921f4-1a20-4147-9443-fd482b9d34cd:Rongting-s_blog-github_sites_build.pdf">Rongting-s blog-github sites build.pdf</a></li>
+<li><a href="https://sourcethemes.com/academic/docs/">Academic Documentation</a></li>
+<li><a href="https://gohugo.io/documentation/">Official Hugo Documentation</a></li>
+</ul>
+<hr>
+<h2 id="6-common-issues">6. Common Issues</h2>
+<ul>
+<li><strong>Theme errors?</strong><br>
+Ensure you’re using <code>hugo71</code> (v0.71) since the theme is not compatible with newer Hugo versions.</li>
+<li><strong>Submodule issues?</strong><br>
+Double-check your <code>public</code> submodule setup and remote URLs.</li>
+<li><strong>Build errors with Sass/CSS?</strong><br>
+Ensure Dart Sass is installed if you’re customizing styles.</li>
+</ul>
+<hr>
+<h2 id="7-updating-content">7. Updating Content</h2>
+<ul>
+<li>Edit Markdown files in <code>content/</code>.</li>
+<li>Add images and static files to the <code>static/</code> directory.</li>
+<li>Customize site configuration in the <code>config/</code> folders.</li>
+</ul>
+<hr>
+<h1 id="-your-site-is-now-ready">🎉 Your site is now ready!</h1>
+<p>If you have any questions, refer to the resources above or <a href="https://github.com/Rongtingting/academic-kickstart/issues">open an issue</a> on your repository. If you use the most update version of <code>academic-kickstart</code>, please refer to <a href="https://github.com/HugoBlox/theme-academic-cv">HugoBlox/theme-academic-cv</a>.</p>
+<hr>
+<p><em>Happy publishing!</em></p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/web/">WEB</a>
+  
+</div>
+
+
+
+
+    
+      
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/tutorial/homepage/oldhugoinstall/">Manually Download and Install Hugo 0.71</a></li>
+          
+          <li><a href="/tutorial/homepage/github_pagesplushugo_deprecated/">Homepages &amp; Hugo &amp; Academic theme (deprecated version)</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="https://Rongtingting.github.io/tutorial/homepage/oldhugoinstall/" rel="prev">Manually Download and Install Hugo 0.71</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2025 Rongting Huang &middot; 
+
+    Powered by the
+    <a href="https://github.com/Rongtingting/academic-kickstart" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script async defer src="//maps.googleapis.com/maps/api/js?key="></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.1846cc5c27f3006b56814095ec02281f.js"></script>
+
+  </body>
+</html>
+

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2025 Rongting Huang</copyright>
-    <lastBuildDate>Sun, 06 Jul 2025 01:15:09 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 11:27:09 -0700</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rongting</title>
+      <link>https://Rongtingting.github.io/authors/rongting/</link>
+      <pubDate>Sun, 06 Jul 2025 11:27:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/authors/rongting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rongting Huang</title>
+      <link>https://Rongtingting.github.io/authors/rongting-huang/</link>
+      <pubDate>Sun, 06 Jul 2025 11:27:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/authors/rongting-huang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>**Huang, Rongting**</title>
@@ -76,65 +94,38 @@
     </item>
     
     <item>
-      <title>Rongting</title>
-      <link>https://Rongtingting.github.io/authors/rongting/</link>
-      <pubDate>Sat, 05 Jul 2025 23:39:09 -0700</pubDate>
-      
-      <guid>https://Rongtingting.github.io/authors/rongting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rongting Huang</title>
-      <link>https://Rongtingting.github.io/authors/rongting-huang/</link>
-      <pubDate>Sat, 05 Jul 2025 23:39:09 -0700</pubDate>
-      
-      <guid>https://Rongtingting.github.io/authors/rongting-huang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aaron Wing Cheung Kwok</title>
-      <link>https://Rongtingting.github.io/authors/aaron-wing-cheung-kwok/</link>
+      <title>Ho, Joshua WK</title>
+      <link>https://Rongtingting.github.io/authors/ho-joshua-wk/</link>
       <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/authors/aaron-wing-cheung-kwok/</guid>
+      <guid>https://Rongtingting.github.io/authors/ho-joshua-wk/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chen Qiao</title>
-      <link>https://Rongtingting.github.io/authors/chen-qiao/</link>
+      <title>Kwok, Aaron Wing Cheung</title>
+      <link>https://Rongtingting.github.io/authors/kwok-aaron-wing-cheung/</link>
       <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/authors/chen-qiao/</guid>
+      <guid>https://Rongtingting.github.io/authors/kwok-aaron-wing-cheung/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Joshua W. K. Ho</title>
-      <link>https://Rongtingting.github.io/authors/joshua-w.-k.-ho/</link>
+      <title>Qiao, Chen</title>
+      <link>https://Rongtingting.github.io/authors/qiao-chen/</link>
       <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/authors/joshua-w.-k.-ho/</guid>
+      <guid>https://Rongtingting.github.io/authors/qiao-chen/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mai-Har Sham</title>
-      <link>https://Rongtingting.github.io/authors/mai-har-sham/</link>
+      <title>Sham, Mai-Har</title>
+      <link>https://Rongtingting.github.io/authors/sham-mai-har/</link>
       <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
       
-      <guid>https://Rongtingting.github.io/authors/mai-har-sham/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yuanhua Huang</title>
-      <link>https://Rongtingting.github.io/authors/yuanhua-huang/</link>
-      <pubDate>Tue, 01 Mar 2022 10:02:07 +0800</pubDate>
-      
-      <guid>https://Rongtingting.github.io/authors/yuanhua-huang/</guid>
+      <guid>https://Rongtingting.github.io/authors/sham-mai-har/</guid>
       <description></description>
     </item>
     

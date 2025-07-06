@@ -29,14 +29,5 @@
       <description>About my life.</description>
     </item>
     
-    <item>
-      <title>Github_pages &amp; Hugo &amp; Academic theme</title>
-      <link>https://Rongtingting.github.io/post/github_pagesplushugo/</link>
-      <pubDate>Sat, 23 Mar 2019 21:37:43 +0800</pubDate>
-      
-      <guid>https://Rongtingting.github.io/post/github_pagesplushugo/</guid>
-      <description>Build my Github Pages by Hugo based on the theme of Academic.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Rongting Huang</title>
+    <link>https://Rongtingting.github.io/categories/research/</link>
+    <description>Recent content in Research on Rongting Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2025 Rongting Huang</copyright>
+    <lastBuildDate>Sun, 06 Jul 2025 16:39:09 -0700</lastBuildDate>
+    
+	<atom:link href="https://Rongtingting.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github project pages</title>
+      <link>https://Rongtingting.github.io/tutorial/projectpages/githubprojectpages/</link>
+      <pubDate>Sun, 06 Jul 2025 16:39:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tutorial/projectpages/githubprojectpages/</guid>
+      <description>To add documentation for your project, whether you&amp;rsquo;re using GitHub Pages or Read the Docs.</description>
+    </item>
+    
+  </channel>
+</rss>

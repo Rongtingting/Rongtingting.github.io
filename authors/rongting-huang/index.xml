@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2025 Rongting Huang</copyright>
-    <lastBuildDate>Sun, 06 Jul 2025 11:27:09 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 16:39:09 -0700</lastBuildDate>
     
 	<atom:link href="https://Rongtingting.github.io/authors/rongting-huang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github project pages</title>
+      <link>https://Rongtingting.github.io/tutorial/projectpages/githubprojectpages/</link>
+      <pubDate>Sun, 06 Jul 2025 16:39:09 -0700</pubDate>
+      
+      <guid>https://Rongtingting.github.io/tutorial/projectpages/githubprojectpages/</guid>
+      <description>To add documentation for your project, whether you&amp;rsquo;re using GitHub Pages or Read the Docs.</description>
+    </item>
     
     <item>
       <title>Homepage Setup Guide</title>
